@@ -1,0 +1,123 @@
+#footer-sec {
+  padding: 0 16rem 1rem;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.footer-row a{
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.row-top {
+  border-bottom: 1px solid #2c2c2c;
+}
+
+.row-top h6 {
+  font-size: 1.3rem;
+  color: var(--text-color2, #4a9fe9);
+}
+
+/* Social Icon Links */
+.social-links {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.social-links a {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-links i {
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.social-links a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.social-links a:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, #8a3ab9, #b34e02, #feda75);
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.social-links a:nth-child(1):hover::before {
+  opacity: 1;
+}
+
+.social-links a:nth-child(2):hover {
+  background-color: #0077b5;
+}
+
+.social-links a:nth-child(3):hover {
+  background-color: #333;
+}
+
+.social-links a:hover i {
+  color: #fff;
+  z-index: 2;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+ .footer-row a:hover{
+  color: var(--text-color2, #4a9fe9);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+#footer-sec {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.footer-row {
+  padding: 0.7rem 0;
+}
+
+.social-links i {
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+}
+
+}
+
