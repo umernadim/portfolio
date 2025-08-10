@@ -2,7 +2,7 @@
 #project-sec {
   width: 100%;
   min-height: 100vh;
-  padding: 4rem 16rem;
+  padding: 4rem 14rem;
 }
 
 #project-sec #top {
@@ -26,7 +26,7 @@
 #projects-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 4.5rem;
+  gap: 7rem;
 }
 
 .project-card {
@@ -43,6 +43,7 @@
 .project-card .left img {
   width: 100%;
   max-width: 380px;
+  height: 230px;
   border-radius: 15px;
   transition: transform 0.3s ease;
 }

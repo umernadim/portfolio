@@ -13,7 +13,7 @@ export class Projects {
   projects = [
     {
       projName: "Hope Language Center",
-      img: "assets/about-img.jpg",
+      img: "assets/lang-web.png",
       description:
         "🌐 Frontend Website This is a practice project where I implemented HTML, CSS, and JavaScript skills to build a fully responsive website",
       liveLink: "https://umernadim.github.io/hopeEngLangCenter/",
@@ -21,7 +21,7 @@ export class Projects {
     },
     { 
       projName: "SunDown",
-      img: "assets/about-img.jpg",
+      img: "assets/sundown.png",
       description:
         "For sharpening my frontend skills I recreated real-world websites — here's a project where I built a copy of an original website as a practice exercise using HTML, CSS, Js and locomotive js.",
       liveLink: "https://umernadim.github.io/sundown-web/",
@@ -29,7 +29,7 @@ export class Projects {
     },
     { 
       projName: "FanoFan",
-      img: "assets/about-img.jpg",
+      img: "assets/fanofan.png",
       description:
         "FanoFan is a sleek, responsive frontend website showcasing modern fan designs, styles, and features, built with Html, Css, Js and Gsap.",
       liveLink: "https://umernadim.github.io/FanoFan-web/",
@@ -37,7 +37,7 @@ export class Projects {
     },
     { 
       projName: "TwoGoodCo.",
-      img: "assets/about-img.jpg",
+      img: "assets/two-goodCo.png",
       description:
         "This is a practice project where I created a simple drawing app using HTML, CSS, and JavaScript",
       liveLink: "https://umernadim.github.io/twoGoodCo/",
@@ -45,7 +45,7 @@ export class Projects {
     },
     { 
       projName: "Drawing-app",
-      img: "assets/about-img.jpg",
+      img: "assets/drawing-app.png",
       description:
         "This is a practice project where I created a simple drawing app using HTML, CSS, and JavaScript",
       liveLink: "https://umernadim.github.io/drawing_app/",
@@ -53,7 +53,7 @@ export class Projects {
     },
     { 
       projName: "Dice Game",
-      img: "assets/about-img.jpg",
+      img: "assets/dice-game.png",
       description:
         "A simple yet engaging Dice Game built with React JS to practice state management, user interaction, and component logic.",
       liveLink: "",
