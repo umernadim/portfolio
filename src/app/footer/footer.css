@@ -22,7 +22,7 @@
 
 .row-top h6 {
   font-size: 1.3rem;
-  color: var(--text-color2, #4a9fe9);
+  color: #b452da;
 }
 
 /* Social Icon Links */
@@ -94,7 +94,7 @@
 
 .nav-links a:hover,
  .footer-row a:hover{
-  color: var(--text-color2, #4a9fe9);
+  color: #b452da;
 }
 
 /* Responsive */

@@ -12,7 +12,7 @@
 
 #project-sec #top h6 {
   font-size: 1rem;
-  color: #4a9fe9;
+  color: #b452da;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
@@ -43,14 +43,14 @@
 .project-card .left img {
   width: 100%;
   max-width: 380px;
-  height: 230px;
+  height: 220px;
   border-radius: 15px;
   transition: transform 0.3s ease;
 }
 
 .project-card .left img:hover {
   transform: scale(1.02);
-  color: #4a9fe9 !important;
+  color: #b452da !important;
 }
 
 .project-card .right {
@@ -75,7 +75,7 @@
 .project-card .cta {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -92,11 +92,11 @@
 
 .project-card .cta a:hover {
   transform: scale(1.04);
+  color: #b452da;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-/* code for project section  */
 #project-sec {
   padding: 2rem 1.5rem 4rem;
 }
@@ -126,10 +126,6 @@
 }
 .project-card:nth-child(even){
   flex-direction: column-reverse;
-}
-
-.project-card .left img {
-  max-width: 250px;
 }
 
 .project-card .right {

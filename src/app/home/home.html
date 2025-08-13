@@ -9,32 +9,15 @@
           Pakistan. 🎈
         </p>
         <div id="social-links">
-          <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="https://github.com/umernadim"><i class="ri-github-line"></i></a>
+          <a href="https://www.linkedin.com/in/umer-nadeem-ba4786341"><i class="ri-linkedin-fill"></i></a>
         </div>
       </div>
       <div id="right">
-        <div class="blob-wrapper">
-          <svg
-            viewBox="0 0 200 200"
-            xmlns="http://www.w3.org/2000/svg"
-            class="blob-svg"
-          >
-            <clipPath id="blobClip">
-              <path
-                fill="#F0F0F0"
-                d="M42.3,-73.3C56.3,-63.7,70.3,-56.3,74.3,-44.7C78.3,-33.2,72.3,-17.6,67.5,-4.2C62.8,9.1,59.2,18.1,55.3,30.7C51.4,43.3,47.3,59.4,37.4,67.2C27.6,75.1,11.8,74.7,-1.9,76.9C-15.7,79.1,-31.3,84,-43.1,79.6C-54.9,75.1,-62.8,61.2,-66.8,47.3C-70.8,33.3,-70.9,19.2,-68.5,6.7C-66.1,-5.8,-61.1,-16.6,-56.3,-29.4C-51.5,-42.3,-46.9,-57.1,-36.4,-66.2C-25.9,-75.4,-10,-78.8,3.9,-84.1C17.7,-89.3,35.4,-96.9,42.3,-73.3Z"
-                transform="translate(100 100)"
-              />
-            </clipPath>
-            <image
-              xlink:href="assets/hero-img.jpg"
-              width="200"
-              height="200"
-              clip-path="url(#blobClip)"
-              preserveAspectRatio="xMidYMid slice"
-            />
-          </svg>
+        <div id="circle">
+          <div class="inner-circle">
+            <img src="assets/hero-img.jpg" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -86,7 +69,7 @@
   <section id="about-sec">
     <div id="left">
       <div class="img-wrapper">
-        <img src="assets/about-img.jpg" id="about-img" alt="Profile Picture" />
+        <img src="assets/about-img.png" id="about-img" alt="Profile Picture" />
         <img src="assets/scroll.png" id="scroll" alt="Scroll Icon" />
       </div>
     </div>
@@ -103,21 +86,22 @@
   </section>
 
   <!-- code for project section  -->
-<section id="work-sec">
-  <div id="work-infor">
-    <div id="left-part">
-      <h6>My Work</h6>
-      <p>
-        Discover innovative solutions, see my hands-on experience, and witness
-        my journey from concept to completion. Dive into the stories behind
-        each project.
-      </p>
+  <section id="work-sec">
+    <div id="work-infor">
+      <div id="left-part">
+        <h6>My Work</h6>
+        <p>
+          Discover innovative solutions, see my hands-on experience, and witness
+          my journey from concept to completion. Dive into the stories behind
+          each project.
+        </p>
+      </div>
+      <video autoplay muted loop src="assets/video/work-sec-vdo.webm"></video>
     </div>
-    <video autoplay muted loop src="assets/video/work-sec-vdo.webm"></video>
-  </div>
-  <div id="proj-btn">
-    <a href="">View projects <i class="ri-arrow-right-up-line"></i></a>
-  </div>
-</section>
-
+    <div id="proj-btn">
+      <a routerLink="/project">View projects <i class="ri-arrow-right-up-line"></i></a>
+    </div>
+  </section>
 </div>
+
+<router-outlet></router-outlet>
