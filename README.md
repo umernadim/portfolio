@@ -19,16 +19,6 @@ Check out the live version of this portfolio:
 
 ---
 
-## 📸 Screenshots
-
-| Home Page | Projects Page |
-|----------|----------------|
-| ![Home Screenshot](screenshots/home.png) | ![Projects Screenshot](screenshots/projects.png) |
-
-*Make sure to upload your screenshots inside a `/screenshots` folder in the repo.*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: Angular, HTML5, CSS3, TypeScript
@@ -48,5 +38,3 @@ This project is open-source and free to use for learning and portfolio purposes.
 📌 [LinkedIn](https://www.linkedin.com/in/umer-nadeem-ba4786341/)
 📌 [GitHub](https://github.com/umernadim)
 
-**Note**
-This project is in progress and hasn't been completed yet.
